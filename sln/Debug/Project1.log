@@ -1,0 +1,5 @@
+﻿  Main.cpp
+F:\Учебн\It-lab\Euler\res\Methods.h(10,14): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+F:\Учебн\It-lab\Euler\res\Methods.h(23,14): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+F:\Учебн\It-lab\Euler\res\Main.cpp(46,14): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  Project1.vcxproj -> F:\Учебн\It-lab\Euler\sln\Debug\src.exe
