@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/anessivan/Drives/700Gb/GitProjects/Numeral_Methods/res/Main.cpp
+iostream
+-
+fstream
+-
+Methods.h
+/home/anessivan/Drives/700Gb/GitProjects/Numeral_Methods/res/Methods.h
+
+/home/anessivan/Drives/700Gb/GitProjects/Numeral_Methods/res/Methods.h
+iostream
+-
+cmath
+-
+
