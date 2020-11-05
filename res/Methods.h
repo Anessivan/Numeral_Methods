@@ -20,8 +20,9 @@ double* EulerMethod(const double left, const double right, const double y0, cons
 
 double* RungeKutta(const double left, const double right, const double y0, const double power, const double dx)
 {
-  int length = floor((abs(right - left)) / dx) + 1;
-  double* data = new double[length];
+  int length = floor((abs(right - left)) / dx) + 1;// вычисление количества элементов массива
+  double* data = nullptr;
+  data = new double[length];
   double k1 = y0, k2 = y0, k3 = y0, k4 = y0;
   data[0] = y0;
   double x = y0;
@@ -32,7 +33,7 @@ double* RungeKutta(const double left, const double right, const double y0, const
     k2 = power *(data[i] + dx * k1 / 2.0 );
     k3 = power * (data[i] + dx * k2 / 2.0 );
     k4 = power * (data[i] + dx * k3);
-    data[i + 1] = data[i] + (dx / 6.0) * (k1 + 2 * k2 + 2 * k3 + k4);
+    data[i + 1] = data[i] + (dx / 6.0) * (k1 + 2 * k2 + 2 * k3 + k4); // вычисление текущего элемента под номером i + 1
   }
   return data;
 }
