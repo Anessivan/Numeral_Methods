@@ -78,6 +78,8 @@ double FinddxEuler(double left, double right, double power, double y0)
       out << std::endl << " ErrorFirst = " << ErrorFirst << " ErrorLast = " << ErrorLast << " dx: " << dx;
       out.close();
       flag = FinalErrorEuler(left, right, y0, power, dx);
+      delete[] EulerData;
+      delete[] EulerError;
     }
     return dxconst;
 }

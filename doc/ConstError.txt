@@ -23,3 +23,6 @@ Errror
  ErrorFirst = 9.53674e-07 ErrorLast = 8.67813e-05 dx: 4.76837e-07
  ErrorFirst = 4.76837e-07 ErrorLast = 4.33907e-05 dx: 2.38419e-07
  ErrorFirst = 2.38419e-07 ErrorLast = 2.16954e-05 dx: 1.19209e-07
+ ErrorFirst = 1.19209e-07 ErrorLast = 1.08477e-05 dx: 5.96046e-08
+ ErrorFirst = 5.96046e-08 ErrorLast = 5.42388e-06 dx: 2.98023e-08
+ ErrorFirst = 2.98023e-08 ErrorLast = 2.71207e-06 dx: 1.49012e-08
